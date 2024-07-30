@@ -50,7 +50,7 @@
   ],
   "navigation": [
     {
-      "group": "Get Started123",
+      "group": "Get Started",
       "pages": [
         "introduction",
         "quickstart",
@@ -75,9 +75,9 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Agent Endpoints",
       "pages": [
-     "api-reference/endpoint/agent/add-datasource",
+        "api-reference/endpoint/agent/add-datasource",
         "api-reference/endpoint/agent/add-llm",
         "api-reference/endpoint/agent/add-tool",
         "api-reference/endpoint/agent/create",
@@ -91,6 +91,89 @@
         "api-reference/endpoint/agent/remove-llm",
         "api-reference/endpoint/agent/remove-tool",
         "api-reference/endpoint/agent/update"
+      ]
+    },
+    {
+      "group": "API Key Endpoints",
+      "pages": [
+        "api-reference/endpoint/api-key"
+      ]
+    },
+    {
+      "group": "API User Endpoints",
+      "pages": [
+        "api-reference/endpoint/api-user/create",
+        "api-reference/endpoint/api-user/delete",
+        "api-reference/endpoint/api-user/get",
+        "api-reference/endpoint/api-user/identify"
+      ]
+    },
+    {
+      "group": "Datasource Endpoints",
+      "pages": [
+        "api-reference/endpoint/datasource/create",
+        "api-reference/endpoint/datasource/delete",
+        "api-reference/endpoint/datasource/get",
+        "api-reference/endpoint/datasource/list",
+        "api-reference/endpoint/datasource/update"
+      ]
+    },
+    {
+      "group": "LLM Endpoints",
+      "pages": [
+        "api-reference/endpoint/llm/create",
+        "api-reference/endpoint/llm/get",
+        "api-reference/endpoint/llm/list",
+        "api-reference/endpoint/llm/update"
+      ]
+    },
+    {
+      "group": "Tool Endpoints",
+      "pages": [
+        "api-reference/endpoint/tool/create",
+        "api-reference/endpoint/tool/delete",
+        "api-reference/endpoint/tool/get",
+        "api-reference/endpoint/tool/list",
+        "api-reference/endpoint/tool/update"
+      ]
+    },
+    {
+      "group": "Vector Database Endpoints",
+      "pages": [
+        "api-reference/endpoint/vector-database/create",
+        "api-reference/endpoint/vector-database/delete",
+        "api-reference/endpoint/vector-database/get",
+        "api-reference/endpoint/vector-database/list",
+        "api-reference/endpoint/vector-database/update"
+      ]
+    },
+    {
+      "group": "Workflow Endpoints",
+      "pages": [
+        "api-reference/endpoint/workflow/add-step",
+        "api-reference/endpoint/workflow/create",
+        "api-reference/endpoint/workflow/delete-step",
+        "api-reference/endpoint/workflow/delete",
+        "api-reference/endpoint/workflow/get",
+        "api-reference/endpoint/workflow/invoke",
+        "api-reference/endpoint/workflow/list-steps",
+        "api-reference/endpoint/workflow/list",
+        "api-reference/endpoint/workflow/update-1",
+        "api-reference/endpoint/workflow/update"
+      ]
+    },
+    {
+      "group": "Workflow Config Endpoints",
+      "pages": [
+        "api-reference/endpoint/workflow-config"
+      ]
+    },
+    {
+      "group": "General Endpoints",
+      "pages": [
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete",
+        "api-reference/endpoint/get"
       ]
     }
   ],
