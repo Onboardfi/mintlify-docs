@@ -77,9 +77,20 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+     "api-reference/endpoint/agent/add-datasource",
+        "api-reference/endpoint/agent/add-llm",
+        "api-reference/endpoint/agent/add-tool",
+        "api-reference/endpoint/agent/create",
+        "api-reference/endpoint/agent/delete",
+        "api-reference/endpoint/agent/get",
+        "api-reference/endpoint/agent/invoke",
+        "api-reference/endpoint/agent/list-datasources",
+        "api-reference/endpoint/agent/list-tools",
+        "api-reference/endpoint/agent/list",
+        "api-reference/endpoint/agent/remove-datasource",
+        "api-reference/endpoint/agent/remove-llm",
+        "api-reference/endpoint/agent/remove-tool",
+        "api-reference/endpoint/agent/update"
       ]
     }
   ],
