@@ -1,14 +1,14 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "OnboardFi API Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
+    "primary": "#0F5842",
+    "light": "#BBF7E5",
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@onboardfi.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://www.onboardfi.com"
   },
   "tabs": [
     {
@@ -33,9 +33,9 @@
   ],
   "anchors": [
     {
-      "name": "Product Documentation",
+      "name": "Product Help Guide",
       "icon": "book-open-cover",
-      "url": "https://docs.theGPTlab.com"
+      "url": "https://intercom.help/onboardfi/en/"
     },
     {
       "name": "Community",
@@ -45,7 +45,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://www.thegptlab.com/blog"
+      "url": "https://www.onboardfi.com/blog"
     }
   ],
   "navigation": [
@@ -53,17 +53,7 @@
       "group": "Get Started",
       "pages": ["introduction", "concepts"]
     },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
+  
     {
       "group": "API Documentation",
       "pages": [
@@ -174,8 +164,7 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/onboard_fi",
+    "linkedin": "https://www.linkedin.com/company/onboardf"
   }
 }
